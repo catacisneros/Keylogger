@@ -5,19 +5,19 @@
 
 ## web_server.py (The Middleman)
 
-### Part 1: Connection Setup (lines 16 to 35)
+### Part 1: Connection Setup
 - Connects to the display terminal in the background.
 - Retries if the display terminal isn’t running yet.
 
-### Part 2: Web Page (lines 37 to 70)
+### Part 2: Web Page
 - Serves a simple HTML page with a text box.
 - JavaScript watches the text box and sends new text to the server.
 
-### Part 3: Receiving Input (lines 76 to 93)
+### Part 3: Receiving Input
 - When the web page sends text, receives it.
 - Forwards it to the display terminal via the socket.
 
-### Part 4: Starting the Server (lines 111 to 115)
+### Part 4: Starting the Server
 - Starts the web server on port 8080.
 
 ## How It All Works Together
